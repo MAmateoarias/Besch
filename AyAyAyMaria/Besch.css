@@ -402,7 +402,91 @@
       width: 100%;
       background-image: url('2YDstsaACSvDqSH3UcF3CdBBB79-desktop.jpg');
      }
-     @media (max-width: 412px){
+     @media (min-width: 576px){
+      .Botones{
+        font-size: 1em;
+       width: 100%;
+      }
+      .logo{
+        width: 3em;
+        margin-left: 1em;
+        transform: translateY(-4em);
+      }
+      .galeria{
+        width: 23.5em;
+        height: 20em;
+        border: 10em #ffffff;
+        padding: 1em;
+      }
+      .textoeslogan{
+        font-size: 1.5em;
+        transform: translateY(-60em);
+      }
+      .tituloinfo1{
+        font-size: 2em;
+        transform: translateY(-49em);
+      }
+      .imginfo1{
+        width:15em ;
+        margin-left: 4.5em;
+        bottom: 78em;
+      }
+      .imginfo1-1{
+        width:15em ;
+        margin-left: 4.5em;
+        transform: translateY(-28em);
+      }
+      .imginfo1-2{
+        width:15em ;
+        margin-left: 4.5em;
+        transform: translateY(-25em);
+      }
+      .pinfo1{
+        width: 15em;
+        height: 15em;
+        font-size: 1em;
+        transform: translateY(40em);
+        right: 4em;
+      }
+      .textomenu{
+        font-size: 3em;
+      }
+      .cafeteria{
+        width: 18em;
+        height: 11em;
+        margin-left: -2em;
+      }
+      .imgcafe{
+        width: 15em;
+        height: 10em;
+        margin-left: 2.5em;
+      }
+      .JLL{
+        display: flex;
+        width: 18em;
+        height: 11em;
+        margin-left: -2em;
+        transform: translateY(-133.5em);
+      }
+      .imgJLL{
+        width: 15em;
+        height: 10em;
+        margin-left: 2.5em;
+      }
+      .desayunos{
+        display: flex;
+        width: 16.5em;
+        height: 30.5em;
+        margin-left: 9.7em;
+        transform: translateY(-227em);
+      }
+      .imgdesayuno{
+        width: 9em;
+        height: 30em;
+        margin-left: 7em;
+      }
+     }
+     @media (max-width: 575.98px){
       .Botones{
         font-size: 1em;
        width: 100%;
