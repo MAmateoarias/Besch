@@ -407,7 +407,7 @@
         font-size: 1em;
        width: 100%;
       }
-      .logo{
+      .logo{  
         width: 3em;
         margin-left: 1em;
         transform: translateY(-4em);
@@ -487,6 +487,9 @@
       }
      }
      @media (max-width: 575.98px){
+      body{
+        height: 20vh;
+      }
       .Botones{
         font-size: 1em;
        width: 100%;
@@ -536,37 +539,49 @@
         font-size: 3em;
       }
       .cafeteria{
-        width: 18em;
-        height: 11em;
-        margin-left: -2em;
+        width: 16em;
+        height: 10.5em;
+        margin-left: 6em;
       }
       .imgcafe{
         width: 15em;
         height: 10em;
-        margin-left: 2.5em;
+        margin-left: 1em;
       }
       .JLL{
         display: flex;
-        width: 18em;
-        height: 11em;
-        margin-left: -2em;
+        width: 15em;
+        height: 10.5em;
+        margin-left: 6em;
         transform: translateY(-133.5em);
       }
       .imgJLL{
         width: 15em;
         height: 10em;
-        margin-left: 2.5em;
+        margin-left: 1em;
       }
       .desayunos{
         display: flex;
-        width: 16.5em;
-        height: 30.5em;
-        margin-left: 9.7em;
-        transform: translateY(-227em);
+        width: 13.5em;
+        height: 12.5em;
+        margin-left: 6.5em;
+        padding-left: 0em;
+        padding-right: 0em;
+        transform: translateY(-202em);
       }
       .imgdesayuno{
-        width: 9em;
-        height: 30em;
-        margin-left: 7em;
+        width: 15em;
+        height: 12em;
+        margin-left: 1em;
+      }
+      .ubicacion{
+       width: 24.3em;
+       height: 20em;
+       top: 300em;
+      }
+      .mapa{
+        transform: translateX(6.5em);
+        width: 10em;
+        height: 10em;
       }
      }
